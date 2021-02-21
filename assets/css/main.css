@@ -1710,13 +1710,14 @@
 		}
 
 		.image.avatar48 {
-			width: auto;
-			height: 120px;
+			width: 120px;
+			height: 160px;
+			background: #f00;
 		}
 
 			.image.avatar48 img {
-				height: 120px;
-                width: auto;
+				width: 120px;
+				height: 160px;
 			}
 
 		.image.fit {
