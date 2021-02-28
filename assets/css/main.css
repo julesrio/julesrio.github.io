@@ -86,6 +86,12 @@
 	.container {
 		width: 1400px;
 	}
+	
+	.language{
+        position: fixed;
+        top: 0.5%;
+        left: 0.5%;
+    }
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
 
@@ -1784,6 +1790,9 @@
 		}
 
 /* Form */
+    .language-container form{
+        display: inline;
+    }
 
     .button-container form{
         display: inline;
@@ -1792,6 +1801,10 @@
     form input[type="image"]{
         width:25px;
         height:auto;
+    }
+    
+    #inactive{
+        opacity:0.5;
     }
 
 	form label {
