@@ -88,9 +88,9 @@
 	}
 	
 	.language{
-        position: fixed;
+        position: absolute;
         top: 0.5%;
-        left: 0.5%;
+        left: 8%;
     }
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
